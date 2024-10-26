@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
+// 01) DATATYPES
+/*int main()
 {
     // 01) Size of all the data types by using the sizeof() operator
     cout << "Size of all the data types by using the sizeof() operator " << endl;
@@ -102,4 +103,104 @@ int main()
     cout << n << endl;
 
     return 0;
+}*/
+
+// 02) LITERALS
+/*int main()
+{
+    // constant integer literal
+    // %d - prints the value of the int variable num in decimal number system. %o - prints the value of the int variable num in octal number system.
+    // 1. Integer Literal
+    const int intDec = 10;
+    const int intOct = 05437;
+    const int intHex = 0x65;
+    const int intBin = 0b1010010;
+    printf("DEC Integer Literal: %d\n", intDec);
+    printf("HEX Integer Literal: %d\n", intHex);
+    printf("OCT Integer Literal: %d\n", intOct);
+    printf("BIN Integer Literal: %d\n", intBin);
+
+    // 2. Float Literal
+    // constant float literal
+    const float floatVal1 = 4.14;
+    const float floatVal2 = 3.1235;
+    printf("Floating point literal: %.2f\n", floatVal1);
+    printf("Floating point literal: %.4f\n", floatVal2);
+
+    // 3. Character Literal
+    // constant char literal
+    const char charVal = 'A';
+    printf("Character Literal: %c\n", charVal);
+
+    // 4. String Literal
+    const char str[] = "Welcome\nto\nGeeks\tfor\tGeeks";
+    printf("%s",str);
+
+    return 0;
+}*/
+
+// 03) ESCAPE SEQUENCE
+int main()
+{
+    // output may depend upon the compiler
+    printf("My mobile number "
+           "is 7\a8\a7\a3\a9\a2\a3\a4\a0\a8\a");
+
+    // \b - backspace character transfers
+    // the cursor one character back with
+    // or without deleting on different
+    // compilers.
+    printf("Hello \b\b\b\b\b\bHi Geeks");
+
+    // Here we are using \n, which is a new line character.
+    printf("Hello\n");
+    printf("GeeksforGeeks");
+
+    // Here we are using \t, which is
+    // a horizontal tab character.
+    // It will provide a tab space
+    // between two words.
+    printf("Hello \t GFG");
+
+    // Here we are using \v, which
+    // is vertical tab character.
+    printf("Hello friends\v");
+    printf("Welcome to GFG");
+
+    // Here we are using \r, which
+    // is carriage return character.
+    printf("Hello   Geeks \rGeeksfor");
+
+    // Here we are using \,
+    // It contains two escape sequence
+    // means \ and \n.
+    printf("Hello\\GFG");
+
+    // C program to illustrate \' escape
+    // sequence/ and \" escape sequence to
+    // print single quote and double quote.
+    printf("\' Hello Geeks\n");
+    printf("\" Hello Geeks");
+
+    // Here we are using \?, which is
+    // used for the presentation of trigraph
+    // in the early of C programming. But
+    // now we don't have any use of it.
+    printf("\?\?!\n");
+
+    // we are using \OOO escape sequence, here
+    // each O in "OOO" is one to three octal
+    // digits(0....7).
+    // char* s1 = "A\072\065";
+    // printf("%s", s1);
+
+    // We are using \xhh escape sequence.
+    // Here hh is one or more hexadecimal
+    // digits(0....9, a...f, A...F).
+    // char* s2 = "B\x4a";
+    // printf("%s", s2);
+
+    return 0;
 }
+
+
