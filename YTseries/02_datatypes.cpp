@@ -388,3 +388,9 @@ int main()
      cout << " " << b1;
      return 0;
 }*/
+
+// 06) DATA TYPES RANGES & THEIR MACROS IN C++
+// 07) C++ TYPE MODIFIERS
+// 08) TYPE CONVERSION IN C++
+// 09) CASTING OPERATORS IN C++
+
