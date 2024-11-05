@@ -24,3 +24,12 @@ int main(){
 
     return 0;
 }
+// int main(){
+//     int val = printHello();
+//     cout << "val = " << val << endl;
+//     cout << printHello() << endl << endl;
+
+//     cout << "Sum function: " << sum(3,2);
+
+//     return 0;
+// }
